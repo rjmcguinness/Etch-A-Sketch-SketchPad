@@ -1,0 +1,39 @@
+.sketchPad {
+	border: 1px dotted #474468;
+	background-color: #EEEEEE;
+	height: 6%;
+	width: 6%;
+	float: left;
+	clear: right;
+	}
+#wrapper {
+	max-height: 960px;
+	max-width: 960px;
+	}
+.highlighted {
+	background-color: #592B33;
+}
+.reset {
+	border-radius: 5px;
+	border: 10px dashed  #64316C;
+	background-color: #64316C;
+	color: white;
+	clear: right;
+	}
+.ui-dialog{
+	z-index: 3000;
+	position: absolute;
+	background-color: #BDAEC6;
+	color: #F1F0FF;
+	border: 5px solid #421C52;
+	border-radius: 10px;
+	font-family: Arial;
+	margin: auto;
+}
+.ui-dialog-buttonpane{
+	display: inline-block;
+}
+
+ .no-close .ui-dialog-titlebar-close {
+  display: none;
+}
