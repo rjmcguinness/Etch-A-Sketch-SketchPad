@@ -1,8 +1,6 @@
 .sketchPad {
 	border: 1px dotted #474468;
 	background-color: #EEEEEE;
-	height: 6%;
-	width: 6%;
 	float: left;
 	clear: right;
 	}
@@ -34,6 +32,6 @@
 	display: inline-block;
 }
 
- .no-close .ui-dialog-titlebar-close {
+.no-close .ui-dialog-titlebar-close {
   display: none;
 }
