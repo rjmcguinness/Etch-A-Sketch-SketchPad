@@ -1,8 +1,8 @@
 .sketchPad {
 	border: 1px dotted #474468;
 	background-color: #EEEEEE;
-	float: left;
-	clear: right;
+	display: inline-block;
+	margin: 0;
 	}
 #wrapper {
 	max-height: 960px;
@@ -11,12 +11,12 @@
 .highlighted {
 	background-color: #592B33;
 }
-.reset {
+#reset, #opacity, #rndColor {
 	border-radius: 5px;
 	border: 10px dashed  #64316C;
 	background-color: #64316C;
 	color: white;
-	clear: right;
+	float: right;
 	}
 .ui-dialog{
 	z-index: 3000;
@@ -27,11 +27,9 @@
 	border-radius: 10px;
 	font-family: Arial;
 	margin: auto;
+	clear: right;
+	display: hidden;
 }
 .ui-dialog-buttonpane{
 	display: inline-block;
-}
-
-.no-close .ui-dialog-titlebar-close {
-  display: none;
 }
